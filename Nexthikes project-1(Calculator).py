@@ -2,8 +2,7 @@ from tkinter import *
 import tkinter as tk
 root = Tk()
 Val = ""    # By using it we ensure that it starts as an empty string, ready to accept new input.
-def btnClick(number):    #when user click any button the btn click function append the coresponding character 
-                                    #to current mathematical expression   
+def btnClick(number):    #when user click any button the btn click function append the coresponding character to current mathematical expression   
     global Val            # stored the mathematical expression 
     Val = Val + str(number)   # it can convert value into the string and store it into the val.
     data.set(Val)
